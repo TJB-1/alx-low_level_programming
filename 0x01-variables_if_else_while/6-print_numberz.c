@@ -2,7 +2,9 @@
 #include <unistd.h>
 /**
  * main - Entry point
+ *
  * Description: prints char below 10 
+ * 
  * Return: 0 (success)
  */
 int main(void)
