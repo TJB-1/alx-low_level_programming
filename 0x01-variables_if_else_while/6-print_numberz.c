@@ -2,10 +2,8 @@
 #include <unistd.h>
 /**
  * main - Entry point
- *
- * Description: prints char below 10 
- * 
- * Return: 0 (success)
+ * Description:prints char below 10
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -13,8 +11,8 @@ int main(void)
 
 	for (a = 0; a < 10; a++)
 	{
-	putchar(a + '0');
+		putchar(a + '0');
 	}
-	putchar('\n');
-	return (0);
+		putchar('\n');
+		return (0);
 }
