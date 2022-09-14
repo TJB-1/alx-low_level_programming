@@ -1,8 +1,9 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
- * main - entry point
- * Return - 0
+ * main - To print putchar
+ * Description: print out the character putchar
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -15,6 +16,5 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-
 	return (0);
 }
