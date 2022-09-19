@@ -1,14 +1,12 @@
 #include "main.h"
 /**
  * reset_to_98 - resets value of given integer
- * 
  * @n: parameter
  *
- * Return - 0
+ * Return: no return value
  */
 
-int reset_to_98
+int reset_to_98(int *n)
 {
-	int *n:
-	*n = 98:
+	*n = 98;
 }
