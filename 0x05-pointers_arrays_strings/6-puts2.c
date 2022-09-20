@@ -1,4 +1,3 @@
-#include "holberton.h"
 #include <stdio.h>
 #include "main.h"
 
@@ -14,10 +13,10 @@ void puts2(char *str)
 {
 	int i = 0;
 
-	while (*(str + i) != '\n')
+	while (str[i] != '\n')
 	{
 		if (i % 2 == 0)
-			putchar(*(str + i));
+			putchar(str[i]);
 		i++;
 	}
 	putchar(10);
