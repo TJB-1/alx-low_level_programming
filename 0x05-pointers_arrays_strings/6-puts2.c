@@ -1,12 +1,13 @@
+#include "holberton.h"
 #include <stdio.h>
 #include "main.h"
 
 /**
  * puts2 - function prints every other character of a string
- * @str: string argument
+ * @str: string input
  *
  * Description: Print every string character starting with 1st character \n
- * Return - 0
+ * Return - Nothing
  */
 
 void puts2(char *str)
