@@ -13,26 +13,26 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int x = 0, y = 0, i = 0;
+	int dest_lenx = 0, src_leny = 0, i = 0;
 
-	while (dest[x] != '\0')
+	while (dest[dest_lenx] != '\0')
 	{
-		x++;
+		dest_lenx++;
 	}
 
-	while (src[y] != '\0')
+	while (src[src_leny] != '\0')
 	{
-		y++;
+		src_leny++;
 	}
 
-	while (y)
+	while (src_leny)
 	{
-		dest[x] = src[y];
-		y--;
+		dest[dest_lenx] = src[src_leny];
+		src_leny--;
 		i++;
-		x++;
+		dest_lenx++;
 	}
-	dest[x] = '\0';
+	dest[dest_lenx] = '\0';
 
 	return (dest);
 }
