@@ -2,7 +2,10 @@
 #include "main.h"
 
 /**
- * _strcat : concatenates two strings
+ * _strcat : appends @src to @dest  strings
+ * overwriting  the terminating null byte (\0) at the end of dest
+ * And adds a terminating null byte
+ *
  * @dest: Destination String
  * @src: Source String
  * Return: A pointer to the resulting string
@@ -10,13 +13,24 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int x, y;
+	int x = 0, y = 0, i = 0;
 
-	i = strlen(dest);
+	while (dest[x] != '\0')
+	{
+		x++;
+	}
 
-	for (y = 0; src[y] != '\0'; x++, y++)
+	while (src[y] != '\0')
+	{
+		y++;
+	}
+
+	while (y)
 	{
 		dest[x] = src[y];
+		y--;
+		i++;
+		x++;
 	}
 	dest[x] = '\0';
 
