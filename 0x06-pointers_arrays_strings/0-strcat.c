@@ -13,8 +13,14 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int src = i;
-	int dest = j;
-
-	strcat( j, i);
+	char src = i;
+	char dest = j;
+	char concat;
+	
+	while (*dest != '\n' && *src != '\n')
+	{
+		j++;
+		i++;
+	}
+	return (concat = _strcat( j, i));
 }
