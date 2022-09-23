@@ -4,8 +4,8 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int x = 0;
-	int y = 0;
+	char x = 0;
+	char y = 0;
 	/*finding offset of null terminator in dest*/
 	while (dest[x] != '\0')
 	{
