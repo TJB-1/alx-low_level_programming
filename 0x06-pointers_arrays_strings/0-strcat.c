@@ -1,5 +1,9 @@
-/*
- * 0_strcat: appends 2 strings
+#include "main.h"
+/**
+ * *_strcat - concatenates two strings
+ * @dest: an input string
+ * @src: an input string
+ * Return: dest
  */
 char *_strcat(char *dest, char *src)
 {
