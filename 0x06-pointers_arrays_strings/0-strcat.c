@@ -1,3 +1,6 @@
+/*
+ * 0_strcat: appends 2 strings
+ */
 char *_strcat(char *dest, char *src)
 {
 	int x = 0;
