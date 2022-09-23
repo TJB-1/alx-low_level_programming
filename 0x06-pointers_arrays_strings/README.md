@@ -1,1 +1,3 @@
-0x06-Pointers_Arrays_Strings
+C - Pointers Arrays and Strings
+
+More onthe above covered her.
