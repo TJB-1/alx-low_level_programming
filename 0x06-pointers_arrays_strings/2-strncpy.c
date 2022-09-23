@@ -10,23 +10,14 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	/*y - srclen*/
-	int x = 0, y = 0;
-	char *temp = dest, *cpy = src;
+	int x = 0;
 
-	while (*src)
+	for (; n > x && src[x]; x++)
 	{
-		x++;
-		src++;
+		dest[x] = src[x];
 	}
-	y++;
-
-	if (n > y)
-		n = y;
-	src = cpy;
-
 	for (;x < n; x++)
-		*dest++ = *src++;
+		dest[x] = '\0';
 
-	return (temp);
+	return (dest);
 }
