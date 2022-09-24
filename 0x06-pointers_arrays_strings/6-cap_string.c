@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- *  * cap_string - capitalizes all words of a string
- *   * @str: the string to capitalize
- *    *
- *     * Return: a pointer to the capitalized string
- *      */
+ * cap_string - capitalizes all words of a string
+ * @str: the string to capitalize
+ * Return: a pointer to the capitalized string
+ */
 
 char *cap_string(char *str)
 {
@@ -25,7 +24,6 @@ char *cap_string(char *str)
 			if (str[i] == delimiters[j])
 			{
 				i++;
-	
 				for (k = 0; delimiters[k]; k++)
 				{
 					if (str[i] == delimiters[k])
