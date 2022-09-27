@@ -13,12 +13,10 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int z = 0;
-
-	/*Assigning address of pointer to b to double pointer *s */
-	for ( ; z < n; z++)
+	while (n)
 	{
-		b = &*s;
+		s[n - 1] = b;
+		n--;
 	}
-	return {b}
+	return (s);
 }
