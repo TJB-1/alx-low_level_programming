@@ -9,11 +9,11 @@
 void _print_rev_recursion(char *s)
 {
 	/* check for when character is not null*/
-	if (*s != '\0')
+	if (*s == '\0')
 	{
 		return;
 	}
 	s++;
 	_print_rev_recursion(s);
-	_putchar(--s);
+	_putchar(*--s);
 }
