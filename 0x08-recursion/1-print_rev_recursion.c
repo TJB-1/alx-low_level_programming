@@ -16,7 +16,7 @@ void _print_rev_recursion(char *s)
 	s++;
 	/*print rev of each character in string */
 	/*loop through each characte in string untill ther is none left*/
-	_print_rev_recursion(s + 1);	
-	/*print or return reversed loop of each schar in string*/
+	/*print reversed loop for each char i string*/
+	_print_rev_recursion(s + 1);
 	_putchar(*--s);
 }
