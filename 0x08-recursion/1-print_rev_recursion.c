@@ -11,7 +11,7 @@ void _print_rev_recursion(char *s)
 	/* check for when character is not null*/
 	if (*s != '\0')
 	{
-		return(*s);
+		return(s);
 	}
 	s++;
 	_print_rev_recursion(s);
