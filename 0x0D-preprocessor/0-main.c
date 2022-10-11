@@ -4,7 +4,7 @@
 
 /**
  * main - check the code
- * SIZE - Macro
+ * o
  * Return: Always 0.
  */
 int main(void)
