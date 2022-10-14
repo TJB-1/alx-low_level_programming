@@ -1,4 +1,4 @@
-nclude "variadic_functions.h"
+#include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
 
@@ -25,7 +25,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		if (!separator)
 			printf("%d", number);
 		else
-	{
+		{
 		if (i == 0)
 			printf("%d", number);
 		else
