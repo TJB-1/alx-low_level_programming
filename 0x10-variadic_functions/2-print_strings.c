@@ -37,7 +37,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 				printf("%s", single_string);
 			}
 			else
-			{					
+			{
 				printf("%s%s", separator, single_string);
 			}
 		}
