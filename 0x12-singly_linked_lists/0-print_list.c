@@ -3,7 +3,7 @@
 /**
  * print_list -  prints all the elements of a list_t list.
  * @h: a pointer to the first element of list
- * Return - Number of nodes or elements in the list
+ * Return: Number of nodes or elements in the list
  */
 
 size_t print_list(const list_t *h)
