@@ -5,7 +5,7 @@
  *   * @h: a pointer to the first node
  *    *
  *     * Return: the number of elements in the list
- *      */
+ */
 
 size_t print_listint(const listint_t *h)
 {
