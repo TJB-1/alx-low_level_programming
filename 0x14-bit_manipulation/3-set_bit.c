@@ -7,7 +7,7 @@
  *
  * Return: 1 on success
  * otherwise, -1
-*/
+ */
 
 int set_bit(unsigned long int *n, unsigned int index)
 {

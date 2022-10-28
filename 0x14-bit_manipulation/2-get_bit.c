@@ -7,7 +7,7 @@
  *
  * Return: the value of the bit,
  * otherwise, -1
-*/
+ */
 
 int get_bit(unsigned long int n, unsigned int index)
 {
