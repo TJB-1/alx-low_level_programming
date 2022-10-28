@@ -5,7 +5,7 @@
  * @n: the number to convert and print
  *
  * Return: void
-*/
+ */
 
 void print_binary(unsigned long int n)
 {

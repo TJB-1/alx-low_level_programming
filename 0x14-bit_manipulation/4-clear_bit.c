@@ -6,6 +6,7 @@
  * Return: 1 Sucesss,
  * otherwise,  -1
  */
+
 int clear_bit(unsigned long int *n, unsigned int index)
 {
 	unsigned long int mask;
